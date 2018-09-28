@@ -1,0 +1,368 @@
+s01_ep06-005.wav	38000	52000	speaking|background laughing|background music
+s01_ep06-053.wav	458000	459000	background laughing|background music
+s01_ep02-017.wav	125000	126000	background music|speaking
+s01_ep07-150.wav	998000	1000000	background laughing|background music
+s01_ep04-072.wav	380000	382000	background laughing|background music
+s01_ep04-240.wav	1285000	1286000	background music
+s01_ep04-239.wav	1280000	1284000	background laughing|background music
+s01_ep04-012.wav	45000	48000	background laughing|background music|background music
+s01_ep07-114.wav	799000	802000	background music|speaking
+s01_ep02-144.wav	684000	685000	background laughing|background music
+s01_ep06-032.wav	269000	270000	background music|opening/closing doors
+s01_ep05-150.wav	915000	917000	background laughing|background music
+s01_ep05-072.wav	426000	427000	background music|speaking
+s01_ep03-002.wav	5000	6000	background music|speaking
+s01_ep01-221.wav	1358000	1360000	background laughing|background music
+s01_ep07-190.wav	1302000	1304000	background music|speaking
+s01_ep05-169.wav	1056000	1061000	background music|background laughing
+s01_ep02-000.wav	3000	6000	background music|speaking
+s01_ep05-062.wav	367000	368000	background music|background laughing
+s01_ep05-145.wav	862000	868000	speaking|background music|background laughing
+s01_ep04-011.wav	42000	45000	speaking|background music|background music
+s01_ep05-170.wav	1061000	1064000	background music|speaking
+s01_ep04-140.wav	763000	764000	speaking|background music
+s01_ep05-084.wav	491000	493000	background laughing|background music
+s01_ep05-071.wav	420000	426000	background music
+s01_ep07-189.wav	1298000	1302000	background music
+s01_ep03-168.wav	952000	958000	speaking|background laughing|background music
+s01_ep01-202.wav	1191000	1197000	background music
+s01_ep01-062.wav	307000	308000	background laughing|background music
+s01_ep05-011.wav	56000	107000	background music
+s01_ep05-136.wav	824000	826000	speaking|background music|laughing
+s01_ep02-246.wav	1361000	1362000	background laughing|background music
+s01_ep05-146.wav	871000	872000	speaking|background music|background laughing
+s01_ep07-065.wav	419000	422000	background music|speaking
+s01_ep05-176.wav	1101000	1104000	background music|speaking|background laughing
+s01_ep04-114.wav	605000	612000	background music
+s01_ep01-000.wav	2000	47000	background music
+s01_ep04-241.wav	1286000	1287000	background music|speaking
+s01_ep05-108.wav	626000	627000	background laughing|background music
+s01_ep06-007.wav	99000	104000	background music|clapping|shouting
+s01_ep02-145.wav	685000	687000	background laughing|background music|clapping
+s01_ep05-137.wav	833000	835000	speaking|background music|background laughing
+s01_ep01-175.wav	1013000	1018000	background music
+s01_ep03-134.wav	764000	781000	background music|background laughing
+s01_ep06-001.wav	6000	8000	background music|speaking
+s01_ep05-181.wav	1139000	1140000	background music|background laughing
+s01_ep03-206.wav	1117000	1118000	background music
+s01_ep05-063.wav	368000	371000	background music|speaking|background laughing
+s01_ep01-011.wav	79000	80000	background music|speaking
+s01_ep07-053.wav	331000	333000	background laughing|background music
+s01_ep04-141.wav	764000	765000	speaking|background laughing|background music
+s01_ep05-178.wav	1113000	1115000	background music|speaking|background laughing
+s01_ep06-114.wav	814000	816000	background music|speaking
+s01_ep02-147.wav	696000	697000	background music|speaking
+s01_ep05-172.wav	1066000	1067000	background music|speaking|laughing
+s01_ep03-268.wav	1360000	1362000	background laughing|background music
+s01_ep01-143.wav	828000	834000	speaking|background music
+s01_ep03-250.wav	1293000	1294000	background laughing|background music
+s01_ep04-093.wav	504000	509000	background music
+s01_ep05-151.wav	919000	921000	background music|speaking
+s01_ep06-113.wav	809000	814000	background music
+s01_ep07-151.wav	1000000	1003000	background music|speaking
+s01_ep07-012.wav	102000	103000	background music|speaking
+s01_ep05-142.wav	848000	851000	speaking|background music
+s01_ep05-135.wav	817000	818000	laughing|speaking|background music|background laughing
+s01_ep03-119.wav	651000	652000	background music|background laughing
+s01_ep06-141.wav	1054000	1055000	background laughing|background music
+s01_ep07-138.wav	916000	917000	background music|speaking|opening/closing doors
+s01_ep04-142.wav	770000	777000	background music
+s01_ep02-016.wav	118000	125000	background music
+s01_ep06-097.wav	725000	727000	background music
+s01_ep06-000.wav	0	6000	background music
+s01_ep04-012.wav	45000	48000	background laughing|background music|background music
+s01_ep04-010.wav	41000	42000	background music
+s01_ep06-100.wav	729000	730000	background music|speaking|opening/closing doors
+s01_ep06-099.wav	728000	729000	background music|knocking|speaking
+s01_ep02-127.wav	612000	613000	background music|speaking
+s01_ep06-031.wav	261000	262000	background laughing|background music
+s01_ep05-139.wav	836000	840000	background music|background laughing
+s01_ep06-096.wav	720000	724000	background laughing|background music
+s01_ep04-082.wav	439000	441000	speaking
+s01_ep01-055.wav	248000	251000	speaking
+s01_ep07-000.wav	0	9000	speaking
+s01_ep04-212.wav	1132000	1138000	speaking
+s01_ep04-024.wav	148000	160000	speaking
+s01_ep05-000.wav	0	12000	speaking
+s01_ep05-070.wav	409000	413000	speaking|background laughing
+s01_ep02-207.wav	1073000	1074000	speaking|background laughing
+s01_ep05-153.wav	937000	939000	speaking
+s01_ep02-169.wav	831000	840000	speaking|background laughing
+s01_ep02-176.wav	881000	882000	speaking|background laughing|opening/closing doors
+s01_ep02-171.wav	846000	851000	background laughing|speaking
+s01_ep04-044.wav	245000	247000	speaking
+s01_ep05-136.wav	824000	826000	speaking|background music|laughing
+s01_ep04-004.wav	21000	25000	speaking
+s01_ep05-003.wav	24000	25000	background laughing|speaking
+s01_ep04-013.wav	49000	52000	speaking|background music|speaking
+s01_ep04-108.wav	579000	585000	speaking
+s01_ep07-143.wav	943000	945000	speaking|background laughing|laughing|clapping
+s01_ep05-086.wav	502000	504000	background music|speaking|background laughing
+s01_ep02-019.wav	134000	135000	background laughing|speaking
+s01_ep01-074.wav	385000	391000	speaking
+s01_ep01-153.wav	902000	903000	speaking
+s01_ep02-179.wav	895000	901000	speaking
+s01_ep05-097.wav	553000	555000	speaking|background laughing
+s01_ep03-233.wav	1215000	1221000	speaking
+s01_ep01-008.wav	67000	69000	speaking|background laughing
+s01_ep04-069.wav	369000	370000	speaking|background laughing
+s01_ep01-130.wav	688000	689000	speaking|background laughing
+s01_ep06-143.wav	1062000	1064000	speaking|background laughing
+s01_ep03-147.wav	861000	865000	speaking
+s01_ep02-142.wav	681000	682000	speaking
+s01_ep03-125.wav	681000	683000	background laughing|speaking
+s01_ep02-089.wav	423000	424000	speaking|background laughing
+s01_ep03-053.wav	294000	295000	background laughing|speaking
+s01_ep05-085.wav	496000	502000	background music|speaking
+s01_ep01-212.wav	1312000	1315000	speaking
+s01_ep03-073.wav	421000	422000	background music|speaking
+s01_ep02-022.wav	143000	146000	background laughing|speaking
+s01_ep03-208.wav	1123000	1124000	speaking
+s01_ep03-223.wav	1183000	1186000	speaking
+s01_ep02-186.wav	949000	953000	opening/closing doors|speaking
+s01_ep03-100.wav	549000	554000	speaking
+s01_ep01-078.wav	398000	405000	speaking
+s01_ep05-160.wav	991000	994000	speaking|laughing|background laughing
+s01_ep04-175.wav	939000	955000	speaking
+s01_ep05-066.wav	388000	391000	speaking|background laughing
+s01_ep02-108.wav	511000	513000	speaking
+s01_ep04-252.wav	1353000	1355000	speaking|background laughing
+s01_ep01-123.wav	623000	624000	speaking|background laughing
+s01_ep02-052.wav	270000	278000	speaking
+s01_ep06-005.wav	38000	52000	speaking|background laughing|background music
+s01_ep06-071.wav	555000	558000	speaking|background laughing
+s01_ep03-114.wav	628000	629000	background laughing|speaking
+s01_ep04-219.wav	1164000	1166000	speaking
+s01_ep04-068.wav	362000	369000	speaking
+s01_ep04-091.wav	498000	499000	speaking|background laughing
+s01_ep03-121.wav	662000	664000	speaking|background laughing
+s01_ep01-193.wav	1146000	1147000	speaking|background laughing
+s01_ep01-127.wav	671000	673000	speaking
+s01_ep01-138.wav	777000	778000	speaking|background laughing
+s01_ep07-175.wav	1215000	1218000	speaking|background laughing
+s01_ep05-038.wav	218000	219000	speaking
+s01_ep05-123.wav	733000	736000	speaking|background laughing
+s01_ep04-163.wav	870000	883000	speaking
+s01_ep04-119.wav	636000	637000	background laughing|speaking
+s01_ep01-013.wav	94000	96000	speaking
+s01_ep06-056.wav	469000	470000	speaking|opening/closing doors
+s01_ep01-018.wav	106000	110000	speaking
+s01_ep02-091.wav	430000	431000	speaking|background laughing
+s01_ep01-213.wav	1315000	1316000	speaking|opening/closing doors
+s01_ep03-080.wav	461000	467000	speaking
+s01_ep01-145.wav	870000	872000	speaking
+s01_ep05-147.wav	903000	907000	speaking|background laughing
+s01_ep01-092.wav	464000	465000	speaking|background laughing
+s01_ep07-104.wav	725000	728000	speaking|background laughing
+s01_ep01-076.wav	394000	395000	speaking
+s01_ep02-189.wav	971000	972000	speaking|background laughing
+s01_ep04-002.wav	17000	18000	speaking
+s01_ep06-124.wav	895000	896000	background music|speaking
+s01_ep02-237.wav	1302000	1304000	speaking|background laughing
+s01_ep03-259.wav	1325000	1328000	background laughing
+s01_ep05-155.wav	942000	944000	speaking|background laughing
+s01_ep07-132.wav	886000	889000	background laughing
+s01_ep02-170.wav	842000	843000	background laughing|speaking
+s01_ep03-076.wav	435000	437000	speaking|background laughing
+s01_ep01-042.wav	182000	184000	background laughing
+s01_ep04-244.wav	1301000	1305000	background laughing
+s01_ep07-158.wav	1073000	1075000	background laughing|speaking
+s01_ep06-015.wav	147000	148000	speaking|laughing|background laughing
+s01_ep03-245.wav	1267000	1269000	background laughing
+s01_ep07-039.wav	253000	254000	background laughing|speaking
+s01_ep07-058.wav	364000	368000	background laughing
+s01_ep07-015.wav	121000	122000	speaking|background laughing
+s01_ep04-088.wav	460000	461000	background laughing|speaking
+s01_ep05-189.wav	1163000	1165000	background laughing|speaking
+s01_ep03-193.wav	1073000	1074000	speaking|background laughing
+s01_ep03-112.wav	622000	623000	background laughing|speaking
+s01_ep05-218.wav	1349000	1350000	shouting|background laughing
+s01_ep01-186.wav	1097000	1100000	speaking|background laughing
+s01_ep04-146.wav	789000	790000	background laughing
+s01_ep03-025.wav	177000	178000	background laughing
+s01_ep02-157.wav	746000	750000	background laughing
+s01_ep04-071.wav	378000	379000	speaking|background laughing
+s01_ep03-024.wav	174000	175000	background laughing
+s01_ep05-090.wav	529000	531000	speaking|background laughing
+s01_ep03-243.wav	1256000	1257000	speaking|background laughing
+s01_ep05-197.wav	1217000	1228000	background laughing
+s01_ep07-191.wav	1310000	1311000	speaking|background laughing
+s01_ep05-060.wav	345000	346000	background laughing|laughing|background laughing
+s01_ep04-192.wav	1047000	1048000	background laughing
+s01_ep07-028.wav	208000	212000	background laughing
+s01_ep07-005.wav	29000	33000	background laughing
+s01_ep04-174.wav	938000	939000	background laughing
+s01_ep07-041.wav	256000	257000	background laughing|speaking
+s01_ep02-143.wav	682000	683000	speaking|background laughing
+s01_ep07-131.wav	877000	880000	speaking|background laughing
+s01_ep03-146.wav	859000	860000	speaking|background laughing
+s01_ep04-113.wav	603000	605000	background laughing
+s01_ep05-212.wav	1308000	1314000	background laughing
+s01_ep01-181.wav	1072000	1076000	background laughing
+s01_ep04-236.wav	1274000	1276000	background laughing
+s01_ep03-037.wav	229000	230000	background laughing|background music
+s01_ep02-223.wav	1173000	1176000	speaking|background laughing
+s01_ep03-066.wav	378000	382000	background laughing
+s01_ep01-031.wav	149000	151000	background laughing
+s01_ep02-221.wav	1165000	1166000	speaking|background laughing
+s01_ep07-159.wav	1082000	1088000	speaking|background laughing
+s01_ep03-124.wav	677000	681000	background laughing
+s01_ep03-004.wav	22000	23000	background laughing
+s01_ep04-001.wav	15000	16000	background laughing
+s01_ep03-021.wav	155000	157000	background laughing
+s01_ep04-211.wav	1129000	1130000	speaking|laughing|background laughing
+s01_ep07-129.wav	869000	871000	speaking|background laughing
+s01_ep05-219.wav	1352000	1353000	background laughing|speaking
+s01_ep03-257.wav	1316000	1319000	background laughing
+s01_ep03-172.wav	979000	981000	background laughing
+s01_ep02-215.wav	1127000	1129000	speaking|background laughing
+s01_ep07-181.wav	1255000	1258000	speaking|background laughing
+s01_ep01-066.wav	338000	340000	background laughing
+s01_ep03-034.wav	217000	219000	background laughing
+s01_ep01-128.wav	673000	675000	background laughing
+s01_ep02-115.wav	563000	564000	speaking|background laughing
+s01_ep01-207.wav	1259000	1262000	speaking|background laughing
+s01_ep05-087.wav	505000	507000	background music|speaking|background laughing
+s01_ep02-020.wav	136000	137000	background laughing|speaking
+s01_ep02-093.wav	435000	436000	speaking|background laughing
+s01_ep06-011.wav	119000	120000	speaking|background laughing
+s01_ep02-003.wav	12000	14000	background laughing
+s01_ep04-227.wav	1212000	1213000	speaking|background laughing
+s01_ep04-021.wav	138000	140000	background laughing
+s01_ep06-089.wav	673000	675000	speaking|background laughing
+s01_ep05-019.wav	125000	127000	background laughing|speaking
+s01_ep07-003.wav	27000	28000	background laughing
+s01_ep02-125.wav	608000	609000	speaking|background laughing
+s01_ep06-048.wav	420000	422000	speaking|background laughing
+s01_ep06-153.wav	1139000	1140000	speaking|background laughing
+s01_ep03-247.wav	1273000	1275000	background laughing
+s01_ep01-029.wav	145000	147000	background laughing
+s01_ep04-065.wav	351000	354000	background laughing
+s01_ep05-165.wav	1040000	1044000	speaking|background laughing|crashing
+s01_ep02-101.wav	484000	486000	crashing
+s01_ep05-016.wav	117000	118000	crashing|background laughing
+s01_ep06-139.wav	1052000	1053000	crashing
+s01_ep05-187.wav	1159000	1161000	crashing
+s01_ep06-109.wav	776000	780000	speaking|crashing
+s01_ep01-151.wav	891000	892000	speaking|crashing
+s01_ep05-121.wav	727000	728000	speaking|crashing
+s01_ep05-122.wav	728000	730000	speaking|background laughing|crashing
+s01_ep05-109.wav	631000	634000	background music|crashing
+s01_ep01-160.wav	919000	921000	speaking|crashing
+s01_ep07-007.wav	41000	42000	crashing|background laughing
+s01_ep01-184.wav	1089000	1090000	background laughing|crashing
+s01_ep05-188.wav	1161000	1163000	crashing|background laughing
+s01_ep05-102.wav	602000	603000	crashing|background laughing
+s01_ep05-112.wav	642000	643000	crashing
+s01_ep02-085.wav	412000	413000	knocking
+s01_ep03-082.wav	474000	475000	knocking
+s01_ep03-096.wav	528000	529000	knocking
+s01_ep06-098.wav	727000	728000	background music|knocking
+s01_ep04-157.wav	842000	843000	background laughing|knocking
+s01_ep07-125.wav	852000	854000	knocking
+s01_ep02-159.wav	751000	753000	opening/closing doors|speaking
+s01_ep01-205.wav	1226000	1229000	background laughing|opening/closing doors
+s01_ep06-033.wav	270000	271000	opening/closing doors|speaking
+s01_ep05-037.wav	215000	217000	background laughing|opening/closing doors
+s01_ep02-174.wav	875000	876000	opening/closing doors
+s01_ep04-243.wav	1296000	1297000	opening/closing doors
+s01_ep01-213.wav	1315000	1316000	speaking|opening/closing doors
+s01_ep06-103.wav	746000	748000	speaking|opening/closing doors
+s01_ep06-107.wav	760000	761000	speaking|background laughing|opening/closing doors
+s01_ep01-046.wav	204000	206000	opening/closing doors
+s01_ep03-265.wav	1355000	1356000	speaking|opening/closing doors
+s01_ep06-032.wav	269000	270000	background music|opening/closing doors
+s01_ep02-184.wav	943000	946000	opening/closing doors
+s01_ep01-210.wav	1300000	1302000	opening/closing doors
+s01_ep02-176.wav	881000	882000	speaking|background laughing|opening/closing doors
+s01_ep02-190.wav	974000	975000	opening/closing doors
+s01_ep07-126.wav	854000	855000	opening/closing doors
+s01_ep07-192.wav	1320000	1324000	opening/closing doors
+s01_ep02-203.wav	1047000	1048000	opening/closing doors
+s01_ep02-186.wav	949000	953000	opening/closing doors|speaking
+s01_ep01-096.wav	496000	497000	background laughing|opening/closing doors
+s01_ep06-100.wav	729000	730000	background music|speaking|opening/closing doors
+s01_ep04-160.wav	855000	856000	opening/closing doors
+s01_ep07-138.wav	916000	917000	background music|speaking|opening/closing doors
+s01_ep06-056.wav	469000	470000	speaking|opening/closing doors
+s01_ep07-133.wav	889000	890000	background laughing|opening/closing doors
+s01_ep04-169.wav	912000	913000	speaking|opening/closing doors
+s01_ep03-101.wav	554000	555000	speaking|opening/closing doors
+s01_ep06-104.wav	753000	754000	speaking|opening/closing doors
+s01_ep01-165.wav	959000	960000	speaking|opening/closing doors
+s01_ep02-187.wav	954000	955000	opening/closing doors|background laughing
+s01_ep06-083.wav	626000	627000	speaking|background laughing|opening/closing doors
+s01_ep06-101.wav	736000	739000	speaking|opening/closing doors|background laughing
+s01_ep02-244.wav	1357000	1358000	clapping|speaking
+s01_ep01-200.wav	1182000	1183000	speaking|clapping|shouting
+s01_ep01-069.wav	352000	354000	clapping|background laughing
+s01_ep01-068.wav	351000	352000	speaking|shouting|clapping
+s01_ep04-137.wav	743000	744000	speaking|clapping
+s01_ep02-243.wav	1354000	1355000	background laughing|clapping
+s01_ep02-145.wav	685000	687000	background laughing|background music|clapping
+s01_ep07-002.wav	12000	13000	clapping|speaking
+s01_ep04-057.wav	305000	306000	speaking|background laughing|clapping
+s01_ep03-126.wav	689000	691000	clapping
+s01_ep06-007.wav	99000	104000	background music|clapping|shouting
+s01_ep07-001.wav	9000	12000	clapping
+s01_ep07-184.wav	1267000	1269000	shouting|background laughing
+s01_ep06-070.wav	546000	548000	speaking|shouting|background laughing
+s01_ep01-090.wav	459000	460000	shouting|door bell
+s01_ep06-078.wav	610000	611000	speaking|shouting
+s01_ep06-081.wav	622000	625000	speaking|background laughing|shouting
+s01_ep01-053.wav	238000	239000	shouting
+s01_ep04-016.wav	119000	120000	shouting
+s01_ep06-105.wav	754000	755000	speaking|shouting
+s01_ep06-069.wav	545000	546000	speaking|shouting
+s01_ep05-100.wav	575000	576000	speaking|shouting
+s01_ep06-054.wav	465000	466000	shouting
+s01_ep06-007.wav	99000	104000	background music|clapping|shouting
+s01_ep06-106.wav	755000	757000	speaking|shouting|background laughing
+s01_ep01-200.wav	1182000	1183000	speaking|clapping|shouting
+s01_ep05-218.wav	1349000	1350000	shouting|background laughing
+s01_ep01-089.wav	458000	459000	shouting
+s01_ep06-085.wav	644000	658000	speaking|shouting
+s01_ep06-043.wav	373000	374000	speaking|shouting
+s01_ep07-183.wav	1266000	1267000	shouting
+s01_ep05-207.wav	1288000	1298000	shouting
+s01_ep05-135.wav	817000	818000	laughing|speaking|background music|background laughing
+s01_ep04-211.wav	1129000	1130000	speaking|laughing|background laughing
+s01_ep05-183.wav	1146000	1147000	background music|speaking|laughing|background laughing
+s01_ep05-160.wav	991000	994000	speaking|laughing|background laughing
+s01_ep07-146.wav	963000	966000	speaking|laughing
+s01_ep05-136.wav	824000	826000	speaking|background music|laughing
+s01_ep04-231.wav	1227000	1228000	laughing|background laughing
+s01_ep05-036.wav	214000	215000	laughing
+s01_ep05-134.wav	816000	817000	laughing|speaking|background music
+s01_ep05-060.wav	345000	346000	background laughing|laughing|background laughing
+s01_ep06-112.wav	807000	808000	speaking|laughing|background laughing
+s01_ep05-159.wav	983000	984000	speaking|laughing
+s01_ep06-158.wav	1190000	1191000	speaking|laughing
+s01_ep05-049.wav	278000	280000	speaking|laughing
+s01_ep07-075.wav	524000	525000	laughing
+s01_ep05-167.wav	1051000	1053000	laughing|background laughing
+s01_ep03-159.wav	922000	923000	background laughing|laughing
+s01_ep05-161.wav	1000000	1001000	speaking|laughing|background laughing
+s01_ep06-138.wav	1046000	1047000	background laughing|laughing
+s01_ep07-160.wav	1088000	1089000	speaking|background laughing|laughing
+s01_ep06-126.wav	902000	905000	speaking|laughing
+s01_ep07-144.wav	954000	955000	speaking|laughing
+s01_ep06-036.wav	300000	302000	speaking|laughing
+s01_ep06-042.wav	357000	359000	speaking|laughing|background laughing
+s01_ep05-173.wav	1067000	1070000	background music|speaking|background laughing|laughing
+s01_ep07-143.wav	943000	945000	speaking|background laughing|laughing|clapping
+s01_ep05-004.wav	30000	32000	laughing
+s01_ep05-171.wav	1064000	1065000	background music|speaking|laughing
+s01_ep07-141.wav	937000	938000	speaking|laughing
+s01_ep05-172.wav	1066000	1067000	background music|speaking|laughing
+s01_ep05-133.wav	812000	816000	laughing
+s01_ep04-210.wav	1128000	1129000	speaking|laughing
+s01_ep07-076.wav	525000	526000	laughing|background laughing
+s01_ep04-074.wav	394000	396000	laughing
+s01_ep06-094.wav	718000	719000	speaking|laughing
+s01_ep05-081.wav	485000	486000	speaking|laughing
+s01_ep05-005.wav	32000	33000	laughing|speaking
+s01_ep05-210.wav	1306000	1307000	laughing
+s01_ep05-143.wav	851000	852000	speaking|background music|laughing
+s01_ep06-038.wav	316000	317000	speaking|laughing|background laughing
+s01_ep01-090.wav	459000	460000	shouting|door bell

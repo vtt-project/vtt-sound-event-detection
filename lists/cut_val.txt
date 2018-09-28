@@ -1,0 +1,100 @@
+0333.wav	110	120	crashing
+0330.wav	60	70	crashing
+0254.wav	550	560	crashing
+0075.wav	30	40	crashing
+0365.wav	3	13	crashing
+0371.wav	290	300	crashing
+0116.wav	30	40	crashing
+0072.wav	0	6	crashing
+0459.wav	30	40	crashing
+0077.wav	70	80	crashing
+0009.wav	30	40	crashing
+0294.wav	30	40	crashing
+0322.wav	0	10	knocking
+0178.wav	0	6	knocking
+0013.wav	0	7	opening/closing doors|knocking
+0168.wav	90	100	knocking
+0002.wav	3	13	knocking
+0190.wav	0	10	knocking
+0026.wav	30	40	knocking
+0031.wav	30	40	knocking
+0113.wav	30	40	knocking
+0141.wav	30	40	knocking
+0000.wav	100	110	knocking
+0318.wav	30	40	opening/closing doors
+0393.wav	30	40	opening/closing doors
+0143.wav	220	230	opening/closing doors
+0068.wav	30	40	opening/closing doors
+0108.wav	30	40	opening/closing doors
+0036.wav	3	13	opening/closing doors
+0013.wav	0	7	opening/closing doors|knocking
+0386.wav	80	90	opening/closing doors
+0181.wav	21	31	opening/closing doors
+0062.wav	15	25	opening/closing doors
+0098.wav	30	40	opening/closing doors
+0149.wav	18	28	opening/closing doors
+0304.wav	60	70	clapping
+0357.wav	17	27	clapping
+0315.wav	240	250	clapping
+0359.wav	30	40	clapping
+0029.wav	150	160	laughing|clapping
+0157.wav	30	40	clapping
+0240.wav	30	40	clapping
+0121.wav	30	40	clapping
+0198.wav	320	330	clapping
+0050.wav	30	40	clapping
+0145.wav	400	410	clapping
+0103.wav	0	10	shouting
+0347.wav	10	20	shouting
+0028.wav	260	270	shouting
+0326.wav	80	90	shouting
+0317.wav	40	50	shouting
+0301.wav	80	90	shouting
+0300.wav	260	270	shouting
+0172.wav	310	320	shouting
+0464.wav	120	130	shouting
+0209.wav	10	20	shouting
+0139.wav	0	10	shouting
+0339.wav	210	220	shouting
+0356.wav	170	180	shouting
+0312.wav	60	70	shouting
+0271.wav	0	10	shouting
+0469.wav	60	70	shouting
+0076.wav	0	10	shouting
+0129.wav	30	40	shouting
+0096.wav	260	270	shouting
+0155.wav	40	50	shouting
+0418.wav	70	80	laughing|shouting
+0450.wav	30	40	shouting
+0384.wav	200	210	laughing
+0173.wav	90	100	laughing
+0308.wav	80	90	laughing
+0395.wav	80	90	laughing
+0336.wav	50	60	laughing
+0313.wav	68	78	laughing
+0387.wav	200	210	laughing
+0311.wav	110	120	laughing
+0104.wav	210	220	laughing
+0126.wav	30	40	laughing
+0420.wav	20	30	laughing
+0418.wav	70	80	laughing|shouting
+0338.wav	10	20	laughing
+0130.wav	20	30	laughing
+0319.wav	60	70	laughing
+0281.wav	30	40	laughing
+0213.wav	270	280	laughing
+0287.wav	10	20	laughing
+0054.wav	140	150	laughing
+0285.wav	150	160	laughing
+0142.wav	30	40	laughing
+0275.wav	70	80	door bell
+0220.wav	0	10	door bell
+0430.wav	440	450	door bell
+0150.wav	60	70	door bell
+0136.wav	50	60	door bell
+0273.wav	20	30	door bell
+0366.wav	30	40	door bell
+0446.wav	0	10	door bell
+0456.wav	10	20	door bell
+0272.wav	10	20	door bell
+0453.wav	50	60	door bell
