@@ -117,7 +117,9 @@ win_length = 1536               # The window length of STFT
 List files to evaluate
 """
 if FLAGS.eps=='all':
-    eps = ['08', '09', '10']
+    eps = ['01', '02', '03', '04', '05', '06', '07',
+        '08', '09', '10', '11', '12', '13', '14', '15',
+           '16', '17', '18', '19', '20', '21', '22', '23']
 else:
     eps = FLAGS.eps.strip().split(',')
 
@@ -148,7 +150,7 @@ with tf.Session() as sess:
     U = np.zeros(num_classes)
     
     for ep in eps:
-        audio_file = 'friends/audio_wav/s01_ep%s.wav'%(ep)
+        audio_file = 'audio_wav/s01_ep%s.wav'%(ep)
         """
         Load the audio files 
         """
@@ -159,7 +161,7 @@ with tf.Session() as sess:
         Load the json ground truth file
         """
         if FLAGS.validation:
-            truth_json = 'friends/EP%s/s01_ep%s_tag2_sound_final.json'%(ep, ep)
+            truth_json = 'annotations/s01_ep%s_tag2_sound_final.json'%(ep)
             with open(truth_json, 'r') as ffp:
                 ann_dict = json.load(ffp)
                 event_results_list = ann_dict['sound_results']
