@@ -1,6 +1,3 @@
-# Acknowledgements
-
-This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
 
 # Introduction
 This repository contains source code in Tensorflow of a simple sound event detection (multi-label classification) model using CNN+RNN. 
@@ -65,3 +62,7 @@ The above example shows the output  of a "speaking" event starting at 0 second a
 | precision | 0.67             | 0.93     | 0.51                |
 | recall    | 0.70             | 0.85     | 0.86                |
 | f1        | 0.68             | 0.88     | 0.63                |
+
+# Acknowledgements
+
+This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
