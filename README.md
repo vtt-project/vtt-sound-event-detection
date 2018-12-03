@@ -59,7 +59,7 @@ The format of the prediction results is similar to format of the original annota
 }
 ```
 The above example shows the output  of a "speaking" event starting at 0 second and stopping at 2.0 second. 
-4
+
 |           | background music | speaking | background laughing |
 |-----------|------------------|----------|---------------------|
 | precision | 0.67             | 0.93     | 0.51                |
