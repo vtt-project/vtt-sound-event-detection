@@ -44,8 +44,22 @@ Main metric to measure the performance is `f1_score`.
 Every second in the testing files and prediction results is compared as multi-label classification. 
 # Result folder: prediction_results
 In this folder, there are only prediction results from episode 08 to 23 of the session 1 of Friends because the first 7 episodes are used as training data.
-The format of the prediction results is similar to format of the original annotation excepts the start time and end time for each event is changed to second only (original format is hh:mm:ss). 
-
+The format of the prediction results is similar to format of the original annotation excepts the start time and end time for each event is changed to second only (original format is hh:mm:ss). Example of the result format 
+```
+{
+    "file_name": "s01_ep08.json",       //Name of the prediction file containing the season and episode number 
+    "sound_results": [
+        {
+            "start_time": 0,             // Start time at second, in the original annotation was hh:mm:ss 
+            "sound_type": "speaking",    // Label 
+            "end_time": 2.0              // End time at second
+        },
+        ...
+        ]
+}
+```
+The above example shows the output  of a "speaking" event starting at 0 second and stopping at 2.0 second. 
+4
 |           | background music | speaking | background laughing |
 |-----------|------------------|----------|---------------------|
 | precision | 0.67             | 0.93     | 0.51                |
