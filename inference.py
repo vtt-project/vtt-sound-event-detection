@@ -16,13 +16,14 @@ flags.DEFINE_string('checkpoint', './checkpoint/vggish_rnn',
                     'Path to the checkpoint file')
 flags.DEFINE_float('threshold', 0.5, 'Threshold for the final output')
 flags.DEFINE_string('gpu', "1", 'GPU to use')
-flags.DEFINE_string('eps', "all", "episodes to evaluate")
+flags.DEFINE_string("input_file", None,
+                    "Input file (wav format, 44100Hz, 16bit)")
+flags.DEFINE_string('output_file', None,
+                    'Output prediction json file')
 flags.DEFINE_float(
-    'time_step', 1.0, 'Time per step, please choose 0.1, 0.2 or 0.5')
-flags.DEFINE_boolean('validation', True,
-                     'Validate with ground truth or just predict')
-flags.DEFINE_string('output_dir', 'outputs_cnn',
-                    'Output folder for the prediction')
+    'time_step', 1.0, 'Time per step, please choose 0.1, 0.2, 0.5 or 1.0')
+flags.DEFINE_string('gt_file', None,
+                    'Ground truth')
 flags.DEFINE_boolean('bn', True, 'BN')
 
 FLAGS = flags.FLAGS
@@ -126,12 +127,10 @@ win_length = 1536               # The window length of STFT
 """
 List files to evaluate
 """
-if FLAGS.eps == 'all':
-    eps = ['01', '02', '03', '04', '05', '06', '07',
-           '08', '09', '10', '11', '12', '13', '14', '15',
-           '16', '17', '18', '19', '20', '21', '22', '23']
-else:
-    eps = FLAGS.eps.strip().split(',')
+input_wav = FLAGS.input_file
+output_json = FLAGS.output_file
+gt_json = FLAGS.gt_file
+assert input_wav is not None, "Please specify a input wav file"
 
 # Training Parameters
 batch_size = 1
@@ -153,6 +152,10 @@ with tf.Session() as sess:
 
     # The training loop.
     print('Ready to test sound detection algorithm using rnn....')
+    if output_json is not None:
+        print('Output will be written to {}'.format(output_json))
+    else:
+        print("No output file is specificy, evaluation only!")
     # Variable to save the results
     true_num = 0
     predict_num = 0
@@ -160,96 +163,98 @@ with tf.Session() as sess:
     I = np.zeros(num_classes)
     U = np.zeros(num_classes)
 
-    for ep in eps:
-        audio_file = 'audio_wav/s01_ep%s.wav' % (ep)
-        """
-        Load the audio files 
-        """
-        au, _ = librosa.load(
-            audio_file, sr=sr)  # Load the audio samples to a numpy array
-        # Duration of the loaded file in seconds
-        T = len(au)/sr
+    audio_file = input_wav
+    """
+    Load the audio files
+    """
+    au, _ = librosa.load(
+        audio_file, sr=sr)  # Load the audio samples to a numpy array
+    # Duration of the loaded file in seconds
+    T = len(au)/sr
 
-        """
-        Load the json ground truth file
-        """
-        if FLAGS.validation:
-            truth_json = 'annotations/s01_ep%s_tag2_sound_final.json' % (ep)
-            with open(truth_json, 'r') as ffp:
-                ann_dict = json.load(ffp)
-                event_results_list = ann_dict['sound_results']
-            startTime, endTime, label = _get_events(event_results_list)
-            sT = 0                          # The first moment of the audio
-            eT = 1
-            label_secs = []
+    """
+    Load the json ground truth file
+    """
+    if gt_json is not None:
+        truth_json = gt_json
+        with open(truth_json, 'r') as ffp:
+            ann_dict = json.load(ffp)
+            event_results_list = ann_dict['sound_results']
+        startTime, endTime, label = _get_events(event_results_list)
+        sT = 0                          # The first moment of the audio
+        eT = 1
+        label_secs = []
 
-            while not (eT > (T-time_per_slide)):
-                label_id = (startTime <= (sT+0.1)) & (endTime >= eT)
-                labels = label[label_id]
+        while not (eT > (T-time_per_slide)):
+            label_id = (startTime <= (sT+0.1)) & (endTime >= eT)
+            labels = label[label_id]
 
-                if len(labels) > 0:
-                    label_secs.append(list(labels))
-                else:
-                    label_secs.append(['None'])
-                sT += time_per_slide
-                eT += time_per_slide
+            if len(labels) > 0:
+                label_secs.append(list(labels))
+            else:
+                label_secs.append(['None'])
+            sT += time_per_slide
+            eT += time_per_slide
 
-            num_batches = len(label_secs)
-        else:
-            num_batches = T-1
-        """
-        Output dictionary for each file
-        """
-        out_dict = {'file_name': os.path.splitext(os.path.basename(audio_file))[0]+'.json',
-                    'input_file': os.path.basename(audio_file),
-                    'sound_results': []}
+        num_batches = len(label_secs)
+    else:
+        num_batches = T-1
 
-        """
-        Event scroll for the event detection
-        """
-        event_scroll = {}
-        for key in classes.keys():
-            d = {}
-            d['startTime'] = -1
-            d['stopTime'] = -1
-            event_scroll[key] = d
+    """
+    Output dictionary for each file
+    """
+    out_dict = {'file_name': os.path.splitext(os.path.basename(audio_file))[0]+'.json',
+                'input_file': os.path.basename(audio_file),
+                'sound_results': []}
 
-        for step in tqdm(np.arange(num_batches, dtype=int), desc=audio_file):
-            #batch_x, batch_y
-            x = au[step *
-                   samples_per_slide:(step*samples_per_slide+samples_per_step)]
-            stft = librosa.core.stft(x, hop_length=int(
-                hop_length), n_fft=int(n_fft), win_length=int(win_length))
-            batch_x = np.zeros((1, 44, 1025, 1))
-            batch_x[0, :, :, 0] = np.abs(stft).T
-            # Run the prediction only
-            [pred] = sess.run([logits], feed_dict={X: batch_x})
+    """
+    Event scroll for the event detection
+    """
+    event_scroll = {}
+    for key in classes.keys():
+        d = {}
+        d['startTime'] = -1
+        d['stopTime'] = -1
+        event_scroll[key] = d
 
-            if FLAGS.validation:
-                batch_y = _get_label(label_secs[step], classes)
-                batch_y = batch_y[np.newaxis, :]
-                # Calculate the metrics: True Positive, False Negative, True Negative, False Positive of this step
-                TP = (batch_y > 0.5) * (pred > FLAGS.threshold)
-                FN = (batch_y > 0.5) > (pred > FLAGS.threshold)
-                TN = (batch_y < 0.5) * (pred < FLAGS.threshold)
-                FP = (batch_y < 0.5) * (pred > FLAGS.threshold)
-                I = I + TP.astype(np.int)
-                U = U + (FP + batch_y.astype(np.bool)).astype(np.int)
-                # Cummulative metrics
-                tp += np.sum(TP, axis=0)
-                fn += np.sum(FN, axis=0)
-                tn += np.sum(TN, axis=0)
-                fp += np.sum(FP, axis=0)
-            # Push to event scroll:
-            event_scroll, results = _get_event_from_scroll(
-                event_scroll, pred[0] > FLAGS.threshold, (step, step + samples_per_step/sr), classes=classes_list)
+    for step in tqdm(np.arange(num_batches, dtype=int), desc=audio_file):
+        #batch_x, batch_y
+        x = au[step *
+               samples_per_slide:(step*samples_per_slide+samples_per_step)]
+        stft = librosa.core.stft(x, hop_length=int(
+            hop_length), n_fft=int(n_fft), win_length=int(win_length))
+        batch_x = np.zeros((1, 44, 1025, 1))
+        batch_x[0, :, :, 0] = np.abs(stft).T
+        # Run the prediction only
+        [pred] = sess.run([logits], feed_dict={X: batch_x})
 
-            out_dict['sound_results'] = out_dict['sound_results'] + results
-        # Dump file to json
-        with open(os.path.join(FLAGS.output_dir, out_dict['file_name']), 'w') as f:
+        if gt_json:
+            batch_y = _get_label(label_secs[step], classes)
+            batch_y = batch_y[np.newaxis, :]
+            # Calculate the metrics: True Positive, False Negative, True Negative, False Positive of this step
+            TP = (batch_y > 0.5) * (pred > FLAGS.threshold)
+            FN = (batch_y > 0.5) > (pred > FLAGS.threshold)
+            TN = (batch_y < 0.5) * (pred < FLAGS.threshold)
+            FP = (batch_y < 0.5) * (pred > FLAGS.threshold)
+            I = I + TP.astype(np.int)
+            U = U + (FP + batch_y.astype(np.bool)).astype(np.int)
+            # Cummulative metrics
+            tp += np.sum(TP, axis=0)
+            fn += np.sum(FN, axis=0)
+            tn += np.sum(TN, axis=0)
+            fp += np.sum(FP, axis=0)
+        # Push to event scroll:
+        event_scroll, results = _get_event_from_scroll(
+            event_scroll, pred[0] > FLAGS.threshold, (step, step + samples_per_step/sr), classes=classes_list)
+
+        out_dict['sound_results'] = out_dict['sound_results'] + results
+
+    # Dump file to json
+    if output_json is not None:
+        with open(os.path.join(output_json), 'w') as f:
             json.dump(out_dict, f, indent=4)
 
-if FLAGS.validation:
+if gt_json is not None:
     acc = (tp + tn + 0.01) / (tp + fn + tn + fp + 0.01).astype(np.float)
     pre = (tp + 1.) / (tp + fp + 1.).astype(np.float)
     rec = (tp+0.01) / (tp + fn + 0.01).astype(np.float)
