@@ -7,7 +7,7 @@ This repository contains source code in Tensorflow of a simple sound event detec
 * Tensorflow 1.12
 * Librosa 0.6
 * Matplotlib 1.5.3
-* [sed_vis] (https://github.com/TUT-ARG/sed_vis)
+* [sed_vis](https://github.com/TUT-ARG/sed_vis)
 * [dcase_utils](https://github.com/DCASE-REPO/dcase_util)
 
 # Method 
@@ -46,6 +46,9 @@ To  evaluate the trained model on the provided data, run the following command:
 ```
 python evaluate.py --checkpoint='checkpoint/vggish_rnn'
 ```
+
+The trained model is saved in `checkpoint/vggish_rnn/model`, but the `--checkpoint` argument should point to `checkpoint/vggish_rnn` only. 
+
 The python script will read all audio of episodes in the `audio_wav` folder and annoatations in the `annotations` folder.
 The script will make prediction in the data then compare with the annotation to produce a table of accuracy, precision, recall,f1_score and intersection over union of each event type.
 
@@ -89,9 +92,9 @@ The above example shows the output  of a "speaking" event starting at 0 second a
 
 |           | background music | speaking | background laughing |
 |-----------|------------------|----------|---------------------|
-| precision | 0.67             | 0.93     | 0.51                |
-| recall    | 0.70             | 0.85     | 0.86                |
-| f1        | 0.68             | 0.88     | 0.63                |
+| precision | 0.62             | 0.92     | 0.60                |
+| recall    | 0.67             | 0.85     | 0.77                |
+| f1        | 0.64             | 0.88     | 0.67                |
 
 # Acknowledgements
 
